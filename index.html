@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(169, 244, 248);
+        }
+        h1{
+            text-align: center;
+            color: teal;
+        }
+        h2{
+            text-align: center;
+            color: rgb(75, 165, 120);
+        }
+        .main{
+            margin-top:10vh;
+        }
+        .col{
+            color: teal;
+        }
+        .mauiIsland{
+            border-radius: 35px;
+            align-items: center;
+            height: 30vw;
+            width: 37vw;
+        }
+        .listItem{
+            display: inline;
+            
+        }
+        .copyright{
+            text-align: right;
+        }
+        .hawaiianSong{
+            align-content: center;
+            align-items: center;
+        }
+        .div_01{
+            border-radius: 20px;
+            color: teal;
+            background-color: lightcoral;
+        }
+        .div_01:hover{
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .youtube{
+            align-content: right;
+            margin-left: 30vw;
+        }
+        .music{
+            text-align: center;
+            color: rgb(75, 165, 120);
+            margin: 50px 0 0 50px;
+        }
+    </style>
+    <title>Visit Maui</title>
+  </head>
+  <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="index.html">
+                <img src="https://webstockreview.net/images/island-clipart-island-maui-2.gif" height="80px" />
+            </a>
+            <a class="navbar-brand" href="index.html">Visit Maui</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="finalprojectfacts.html">Facts</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <h1>Maui</h1>
+        <h2>The Valley Isle</h2>
+        <article>
+        <div class="main">
+            <div class="row">
+                <div class="col">
+                    <img class="mauiIsland" src="https://i.insider.com/571a57cf910584cc5e8be51b?width=1100&format=jpeg&auto=webp" alt="">
+                </div>
+                <br /> 
+                <br />
+                <div class="col">
+                    <p>Aloha and Welcome to Maui! This gorgeous island in the heart of the Hawaiian Islands has lots to offer. Visit our Facts page to learn more about the island. <br /> <br />
+                    Let us know below what activities you are most excited to try! Choose an activity below and we tell where on the island is the best place to go!
+                    <br />
+                    <div id='mauiActivities'>
+                        <li class="listItem">
+                            <ul><button class="div_01" onclick="functionsnorkel()">Snorkeling</button></ul>
+                            <ul><button class="div_01" onclick="functionluau()">Going to a Luau</button></ul>
+                            <ul><button class="div_01" onclick="functionsunrise()">Climbing Haelakala for Sunrise</button></ul>
+                            <ul><button class="div_01" onclick="functionhana()">Road to Hana</button></ul>
+                            <ul><button class="div_01" onclick="functionIao()">Iao Valley Hike</button></ul>
+                        </li>
+                      </div>
+                    </p>
+                </div>
+            </div>
+            </article>
+            <script src="mauiscript.js"></script>
+      </div>
+    <br />
+    <div class="hawaiianSong">
+        <p class="music">Music is a great way to get into the Aloha spirit. Click here to listen to one of our favourites!</p>
+        <br />
+        <iframe class="youtube" width="500" height="395" src="https://www.youtube.com/embed/Xm5O8U4aTqA?autoplay-1"></iframe>
+    </div>
+
+  </body>
+  <footer class="copyright">
+      <p>(c) Code First Girls 2020</p> 
+  </footer>
+</html>
